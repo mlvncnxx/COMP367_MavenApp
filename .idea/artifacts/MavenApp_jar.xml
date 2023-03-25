@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MavenApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MavenApp_jar</output-path>
+    <root id="archive" name="MavenApp.jar">
+      <element id="module-output" name="MavenApp" />
+    </root>
+  </artifact>
+</component>

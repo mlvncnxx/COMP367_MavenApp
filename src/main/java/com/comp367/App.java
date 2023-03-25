@@ -25,7 +25,7 @@ public class App {
     static class MyHandler implements HttpHandler {
         @Override
         public void handle(HttpExchange t) throws IOException {
-            String name ="Mel";
+            String name ="Mel"; //input name here
             String greeting = getGreetingMessage();
             String response = "<h1>" + greeting + ", " + name + "! Welcome to COMP367</h1>";
             t.sendResponseHeaders(200, response.length());
